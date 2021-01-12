@@ -1,0 +1,7 @@
+#
+# .gitignore file
+#
+
+
+# exclude Visual Studio cache directory
+.vs/
