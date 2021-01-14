@@ -1,7 +1,12 @@
-#
+# Templates-  https://github.com/github/gitignore
 # .gitignore file
 #
 
-
 # exclude Visual Studio cache directory
 .vs/
+
+# exclude SSMS solution files
+*.ssmssln
+
+# exclude
+*.ssmssqlproj
