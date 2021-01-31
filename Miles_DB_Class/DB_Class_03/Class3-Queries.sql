@@ -84,15 +84,15 @@ GO
 
 --7. Write a query to return all the values stored in all Lookup Tables - Lookup tables are the tables we reference typically with just an ID and a name. This should be a dynamic combining of all of the tables
 select * from Roles
-Union
+Union All
 select * from Locations
-Union 
+Union All
 select * from Classes
-Union 
+Union All
 select * from GuestStatuses
-Union
+Union All
 select * from Status
-Union 
+Union All
 select * from RoomStatuses
 GO
 
