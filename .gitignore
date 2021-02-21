@@ -10,3 +10,6 @@
 
 # exclude
 *.ssmssqlproj
+
+# ignore exercises directory contents
+exercises/
