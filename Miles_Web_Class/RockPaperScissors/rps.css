@@ -1,0 +1,18 @@
+html {
+  font-family:Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  background: #fff;  
+  justify-content: center;
+  align-items: center;
+}
+main {
+  margin: auto;
+  text-align: center;
+  
+}
+p {
+  font-size:1.5em;
+  font-weight: bold;
+}
