@@ -99,7 +99,7 @@ function getWinner(playerChoice, computerChoice) {
 
 function showResults(playerChoice, computerChoice, winner) {
   console.log(`Player chose: ${playerChoice}, Computer chose: ${computerChoice} `);
-  var message = (winner === Stats.tie) ? `result: ${winner}!` : `result: ${winner} wins!`
+  var message = (winner === Stats.tie) ? `result: ${winner}!` : `result: ${winner} wins!`;
   console.log(message);
 }
 
