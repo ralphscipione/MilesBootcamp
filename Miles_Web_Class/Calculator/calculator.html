@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="calculator.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <main>
+    <div id="app">
+      <div id="numbers">
+        <div>
+          <label for="number1" class="block">first number</label>
+          <input id="number1" type="number" autofocus >
+        </div>
+        <div>
+          <label for="number2" class="block">second number</label>
+          <input id="number2" type="number" >
+        </div>
+      </div>
+      <div id="div-radio">
+        <input type="radio" id="add" name="operations" value="add" checked="true">
+        <label for="add">Add</label>
+        <input type="radio" id="subtract" name="operations" value="subtract">
+        <label for="subtract">Subtract</label>
+        <input type="radio" id="multiply" name="operations" value="multiply">
+        <label for="multiply">Multiply</label>
+        <input type="radio" id="divide" name="operations" value="divide">
+        <label for="divide">Divide</label>
+      </div>
+      <div id="buttons">
+        <button id="calculate" class="button button-primary">=</button>
+        <button id="clear" class="button button-secondary">Clear</button>
+      </div>
+      <div id="result">
+        
+      </div>
+    </div>
+  </main>
+  <script src="calculator.js"></script>
+</body>
+
+</html>
